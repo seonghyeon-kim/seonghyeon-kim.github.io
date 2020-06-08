@@ -8,7 +8,7 @@ tags:
 facebook에서 git commit 메세지에 템플릿을 적용할 수 있다는 글을 보았다. 무언가 깃에 올라간 사항 중에 찾고 싶은게 있을때, 히스토리 하나하나 뒤져가면서 봐야했었다. 이글을 보고 commit template을 적용하면 commit 메세지를 대충 적을 수 없을 뿐더러 굉장히 commit 기록들이 깔끔해진다.
 
 현재의 commit 기록들
-![image](./images/gittemplate1.png)
+![image](../images/gittemplate1.png)
 이러한 기록들이 어떻게 좋아질지 사용해보고 확인해보자.
 
 ---
@@ -44,7 +44,7 @@ nano ~/.gitmessage.txt
 git config --global commit.template ~/.gitmessage.txt
 ```
 이제 git add 후 git commit 명령어를 치면 터미널에 만든 템플릿이 보일 것이다.
-![image](./images/gittemplate2.png)
+![image](../images/gittemplate2.png)
 이후 template을 팀내부에서 어떻게 사용할지 정하고 사용하면 좋을 것 같다.
 
 
