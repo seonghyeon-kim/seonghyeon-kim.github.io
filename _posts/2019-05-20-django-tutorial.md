@@ -1,12 +1,18 @@
----
-layout: post
-title: Django Tutorial!
-tags:
-  - django
-  - tags
+
 ---
 
-# Django Tutorial
+layout: post
+
+title: Django Tutorial
+
+tags:
+
+- django
+
+- tags
+
+---
+
 
 ### 목표
 django라는 web framework을 사용하여 상담 접수를 받는 웹페이지를 만들어보자!
@@ -244,7 +250,7 @@ Superuser created successfully.
 python manage.py runserver 0:8000
 
 데이터를 입력해보자!
-![image](./images/tutorial/)
+![image](/images/tutorial/)
 
 ---
 

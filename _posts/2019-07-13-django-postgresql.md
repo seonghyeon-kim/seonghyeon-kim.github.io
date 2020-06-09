@@ -41,7 +41,7 @@ postgres=# alter role root set timezone to ‘Asia/Seoul’;
 
 postgres=# grant all privileges on database <DB이름> to <유저이름>;
 ```
-![](images/postgresql/1.png)
+![](/images/postgresql/1.png)
 
 이렇게 하면 설정이 마무리 된다.
 django 설정
@@ -68,7 +68,7 @@ DATABASE ={
 
 이렇게 하면 설정이 완료된다.
 내 설정은 전에 만들었던 secret.json파일에 넣어놓았다.
-![](images/postgresql/2.png)
+![](/images/postgresql/2.png)
 
   
 

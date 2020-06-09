@@ -79,8 +79,8 @@ if settings.DEBUG:
    ```
 
 그 후 웹에 접속해보면 아래와 같은 사진을 확인해볼 수 있다.
-![image](./images/debugtoolbar/1.png)
-![image](./images/debugtoolbar/2.png)
+![image](/images/debugtoolbar/1.png)
+![image](/images/debugtoolbar/2.png)
 이렇게 하여 적용을 마쳤다.
 
 ---

@@ -43,6 +43,6 @@ email = EmailMessage(
 )
 email.send()
 ```
-![image](./images/mail/1.png)
+![image](/images/mail/1.png)
 이렇게 하여 메일을 보내는 방법을 알아보았다.
 프로젝트 내에 메일을 보내는 일이 잦다면 아예 function이나 file로 빼두는 것이 좋을 듯 하다.

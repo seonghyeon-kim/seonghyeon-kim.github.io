@@ -44,7 +44,7 @@ mac이나 linux에서 사용을 권장한다고 한다.
 [root@managernode ~]# redis-server
 ...
 ```
-![image](./images/redis/1.png)
+![image](/images/redis/1.png)
 
 이런 박스가 뜨면서 redis server를 구동시키는데 성공했다.
 mac은 brew manager로 설치가 가능하니 아래를 참고하면 될 것 같다.

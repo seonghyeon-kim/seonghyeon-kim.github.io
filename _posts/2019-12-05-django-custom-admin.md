@@ -37,7 +37,7 @@ urlpatterns = patterns(
 ```
 
 적용 후 admin 에 접속해보면
-![image](./images/customadmin/1.png)
+![image](/images/customadmin/1.png)
 처럼 바뀐것을 확인할 수 있다.
 
 ---

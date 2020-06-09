@@ -11,7 +11,7 @@ tags:
 ### 개요
 우리 팀에서 만든 웹앱 중 지도 api를 사용하는 것이 있었는데, https를 사용하지 않으면 현재 위치를 불러올 수 없는 상황이 생겼다. 이러한 이유로 서버에 https를 설정하였다.
 
- ![image](./images/ssl/image2.png)
+ ![image](/images/ssl/image2.png)
 
 차이점에 대한 참고사이트: [https://nhj12311.tistory.com/83](https://www.google.com/url?q=https://nhj12311.tistory.com/83&sa=D&ust=1591631519233000)
 
@@ -50,13 +50,13 @@ certbot 설치
 ```
 (base)ubuntu@--.--.--.--/letsencrypt \$ certbot certonly --standalone -d \<도메인이름\>
 ```
-![image](./images/ssl/image5.png)
+![image](/images/ssl/image5.png)
 
 인증서 만료 시 안내받을 메일만 적어주면 된다.
 우리는 경로를 지정을 안했기때문에 default 위치인 /etc/letsencrypt/live/도메인이름/ 에 생겼을 것이다 확인해보자
 
 참, 그리고 AWS ec2로 연습해보는 사람들은 아쉽게도 안되는 듯 하다. EC2 퍼블릭 도메인으로 연결 하였더니 amazonaws.com이 블랙리스트에 있다고 한다. 무조건 자신의 도메인 이름을 사용하라고 나와있다. 임시적으로 사용하는 도메인인 걸 알아서 그렇다고 한다. 발급받는 과정은 간단하다.
-![image](./images/ssl/image4.png)
+![image](/images/ssl/image4.png)
 
 잘 생성되었다.
 
