@@ -4,10 +4,12 @@ title: Django custom command
 tags:
 - django
 ---
+
 ### 개요
 github webhook 을 이용해 git에 push하게 되면 자동으로 서버에 반영이 되게끔 하는 방법을 찾다가 django에 command를 custom할 수 있다는 글을 보고 따라 해본다.
 
 ---
+
 ### django command 확인
 command를 만들기 이전에 먼저, django의 기본으로 제공하는 command와 겹치면 안되기 때문에 확인을 먼저 해보자.
 ```

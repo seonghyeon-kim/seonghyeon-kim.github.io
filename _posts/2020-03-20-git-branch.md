@@ -24,6 +24,7 @@ tags:
 위처럼 모든 branch를 사용했을때 이점들은 분명히 효과적으로 다가올 것이라고 예상이 되지만, 우리 팀의 상황에서 모든것을 다 적용하기엔 조금 시간적, 관리에도 무리가 있을 것이라고 생각이 든다. 그리하여 development branch 하나만 만들어서 적용해보려 한다.
 
 ---
+
 ### branch 설정하기
 
 local에 branch 생성
@@ -64,6 +65,7 @@ remote 저장소 branch로 변경
 ​ Administrator@WIN10-20181126 ~ (<master>) $ git checkout -t origin/<branch-name>
 ```
 ---
+
 ### master 에 branch merge 하기
 
 현재 local 환경 확인하기
