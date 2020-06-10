@@ -33,6 +33,7 @@ Redis는 실제 컴퓨터 메모리를 이용한 캐쉬다. DB를 이용하는 �
 - redis 설치
 window에선 설치가 불가능하다고 한다.
 mac이나 linux에서 사용을 권장한다고 한다.
+
 ```console
 # linux
 [root@managernode ~]# wget http://download.redis.io/redis-stable.tar.gz
