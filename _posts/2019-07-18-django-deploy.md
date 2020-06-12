@@ -381,10 +381,10 @@ nginx 셋팅을 위해
 ```
 server {
 	listen 80;
-	server_name *.compute.amazonaws.com;
+	server_name your_domain;
 
 	location / {
-		proxy_pass [http://unix:/srv/glocal.sock;](http://unix:/srv/glocal.sock;)
+		proxy_pass http://unix:/srv/glocal.sock;
 		include proxy_params;
 	}
 }
