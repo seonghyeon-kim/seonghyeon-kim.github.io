@@ -1,7 +1,12 @@
-
-
-# Django + Nginx + gunicorn + AWS EC2 Deployment
-
+---
+layout: post
+title: Django + Nginx + gunicorn + AWS EC2 Deployment
+tags:
+- aws
+- nginx
+- gunicorn
+- django
+---
 django, gunicorn, nginx, AWS EC2를 이용하여 프로젝트 배포.
 
 ### 개요
