@@ -1,16 +1,8 @@
-
 ---
-
 layout: post
-
 title: Django Tutorial
-
 tags:
-
 - django
-
-- tags
-
 ---
 
 
